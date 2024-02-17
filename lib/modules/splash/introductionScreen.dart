@@ -4,6 +4,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../Utils/localfiles.dart';
 import '../../language/appLocalizations.dart';
+import '../../routes/route_names.dart';
 import '../../themes/themes.dart';
 import '../../widgets/common_button.dart';
 import 'components/page_pop_view.dart';
@@ -100,7 +101,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
                 const EdgeInsets.only(left: 48, right: 48, bottom: 8, top: 32),
             buttonText: AppLocalizations(context).of("login"),
             onTap: () {
-              // NavigationServices(context).gotoLoginScreen();
+              NavigationServices(context).gotoLoginScreen();
             },
           ),
           CommonButton(
@@ -110,7 +111,7 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
             backgroundColor: AppTheme.backgroundColor,
             textColor: AppTheme.primaryTextColor,
             onTap: () {
-              // NavigationServices(context).gotoSignScreen();
+              NavigationServices(context).gotoSignScreen();
             },
           ),
           SizedBox(

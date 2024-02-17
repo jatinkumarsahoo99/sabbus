@@ -14,6 +14,7 @@ import 'Utils/enum.dart';
 import 'common/common.dart';
 import 'language/appLocalizations.dart';
 import 'modules/setting/settings_screen.dart';
+import 'modules/splash/introductionScreen.dart';
 import 'modules/splash/splashScreen.dart';
 
 BuildContext? applicationcontext;
@@ -111,6 +112,7 @@ class _MainClassState extends State<MainClass> {
   Map<String, WidgetBuilder> _buildRoutes() {
     return {
       RoutesName.Login: (BuildContext context) => LogInPage(),
+      RoutesName.IntroductionScreen: (BuildContext context) => IntroductionScreen(),
     };
   }
 

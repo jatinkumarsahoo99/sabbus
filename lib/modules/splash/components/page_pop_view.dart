@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/language/appLocalizations.dart';
-import 'package:flutter_hotel_booking_ui/utils/text_styles.dart';
+
+import '../../../Utils/text_styles.dart';
+import '../../../language/appLocalizations.dart';
 
 class PagePopup extends StatelessWidget {
   final PageViewData imageData;
