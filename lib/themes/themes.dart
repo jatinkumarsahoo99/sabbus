@@ -33,10 +33,10 @@ class AppTheme {
       isLightMode ? Color(0xFFFFFFFF) : Color(0xFF2C2C2C);
 
   static Color get primaryTextColor =>
-      isLightMode ? Color(0xFF262626) : Color(0xFFFFFFFF);
+      isLightMode ? Color(0xFF6666FF) : Color(0xFFFFFFFF);
 
   static Color get secondaryTextColor =>
-      isLightMode ? Color(0xFFADADAD) : Color(0xFF6D6D6D);
+      isLightMode ? Color(0xFF673AB7) : Color(0xFF6D6D6D);
 
   static Color get whiteColor => Color(0xFFFFFFFF);
   static Color get backColor => Color(0xFF262626);
@@ -82,7 +82,7 @@ class AppTheme {
   static Color getColor(ColorType _colordata) {
     switch (_colordata) {
       case ColorType.Verdigris:
-        return isLightMode ? Color(0xFF4FBE9F) : Color(0xFF4FBE9F);
+        return isLightMode ? Color(0xFF6666FF) : Color(0xFF4FBE9F);
       case ColorType.Malibu:
         return isLightMode ? Color(0xFF5DCAEC) : Color(0xFF5DCAEC);
       case ColorType.DarkSkyBlue:

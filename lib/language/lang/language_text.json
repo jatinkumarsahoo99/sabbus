@@ -7,6 +7,13 @@
         "ja": "あなたの休日のための最高のホテルのお得な情報"
     },
     {
+        "text_id": "great_things",
+        "en": "Great Things Never Came From Comfort Zone",
+        "fr": "Meilleures offres d'hôtels pour vos vacances",
+        "ar": "أفضل عروض الفنادق لقضاء عطلتك",
+        "ja": "あなたの休日のための最高のホテルのお得な情報"
+    },
+    {
         "text_id": "already_have_account",
         "en": "Already have account? Log in",
         "fr": "Vous avez déjà un compte? Connexion",
@@ -163,6 +170,20 @@
     {
         "text_id": "where_are_you_going",
         "en": "Where are you going?",
+        "fr": "Où vas-tu?",
+        "ar": "إلى أين تذهب؟",
+        "ja": "どこに行くの？"
+    },
+    {
+        "text_id": "from_location",
+        "en": "Enter from location?",
+        "fr": "Où vas-tu?",
+        "ar": "إلى أين تذهب؟",
+        "ja": "どこに行くの？"
+    },
+    {
+        "text_id": "to_location",
+        "en": "Enter to location?",
         "fr": "Où vas-tu?",
         "ar": "إلى أين تذهب؟",
         "ja": "どこに行くの？"

@@ -43,6 +43,17 @@ dependencies:
   provider:
   google_fonts:
   shared_preferences:
+  font_awesome_flutter:
+  flutter_rating_bar:
+  flutter_launcher_icons:
+  smooth_page_indicator:
+  google_maps_flutter:
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
 
 dev_dependencies:
   flutter_test:
