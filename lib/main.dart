@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:sabbus/animation/AnimationFour.dart';
 
+import 'animation/AlbhabetPainter.dart';
 import 'animation/Animation5.dart';
 import 'animation/animation1.dart';
+import 'animation/animation10.dart';
 import 'animation/animation2.dart';
 import 'animation/animation3.dart';
 import 'animation/animation6.dart';
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const AnimationOne(),
-      home: const HomePageOne(),
+      home:  MyCustomPainterPage2(),
     );
   }
 }
