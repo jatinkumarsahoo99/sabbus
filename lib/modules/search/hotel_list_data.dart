@@ -108,129 +108,9 @@ class HotelListData {
     ),
   ];
 
-  static List<HotelListData> popularList = [
-    HotelListData(
-      imagePath: Localfiles.popular_1,
-      titleTxt: 'Paris',
-    ),
-    HotelListData(
-      imagePath: Localfiles.popular_2,
-      titleTxt: 'Spain',
-    ),
-    HotelListData(
-      imagePath: Localfiles.popular_3,
-      titleTxt: 'Vernazza',
-    ),
-    HotelListData(
-      imagePath: Localfiles.popular_4,
-      titleTxt: 'London',
-    ),
-    HotelListData(
-      imagePath: Localfiles.popular_5,
-      titleTxt: 'Venice',
-    ),
-    HotelListData(
-      imagePath: Localfiles.popular_6,
-      titleTxt: 'Diamond Head',
-    ),
-  ];
 
-  static List<HotelListData> reviewsList = [
-    HotelListData(
-      imagePath: Localfiles.avatar1,
-      titleTxt: 'Alexia Jane',
-      subTxt:
-      'This is located in a great spot close to shops and bars, very quiet location',
-      rating: 8.0,
-      dateTxt: '21 May, 2019',
-    ),
-    HotelListData(
-      imagePath: Localfiles.avatar3,
-      titleTxt: 'Jacky Depp',
-      subTxt:
-      'Good staff, very comfortable bed, very quiet location, place could do with an update',
-      rating: 8.0,
-      dateTxt: '21 May, 2019',
-    ),
-    HotelListData(
-      imagePath: Localfiles.avatar5,
-      titleTxt: 'Alex Carl',
-      subTxt:
-      'This is located in a great spot close to shops and bars, very quiet location',
-      rating: 6.0,
-      dateTxt: '21 May, 2019',
-    ),
-    HotelListData(
-      imagePath: Localfiles.avatar2,
-      titleTxt: 'May June',
-      subTxt:
-      'Good staff, very comfortable bed, very quiet location, place could do with an update',
-      rating: 9.0,
-      dateTxt: '21 May, 2019',
-    ),
-    HotelListData(
-      imagePath: Localfiles.avatar4,
-      titleTxt: 'Lesley Rivas',
-      subTxt:
-      'This is located in a great spot close to shops and bars, very quiet location',
-      rating: 8.0,
-      dateTxt: '21 May, 2019',
-    ),
-    HotelListData(
-      imagePath: Localfiles.avatar6,
-      titleTxt: 'Carlos Lasmar',
-      subTxt:
-      'Good staff, very comfortable bed, very quiet location, place could do with an update',
-      rating: 7.0,
-      dateTxt: '21 May, 2019',
-    ),
-    HotelListData(
-      imagePath: Localfiles.avatar7,
-      titleTxt: 'Oliver Smith',
-      subTxt:
-      'This is located in a great spot close to shops and bars, very quiet location',
-      rating: 9.0,
-      dateTxt: '21 May, 2019',
-    ),
-  ];
 
-  static List<HotelListData> romeList = [
-    HotelListData(
-        imagePath:
-        'assets/images/room_1.jpg assets/images/room_2.jpg assets/images/room_3.jpg',
-        titleTxt: 'Deluxe Room',
-        perNight: 180,
-        dateTxt: 'Sleeps 3 people',
-        roomData: RoomData(2, 2)),
-    HotelListData(
-        imagePath:
-        'assets/images/room_4.jpg assets/images/room_5.jpg assets/images/room_6.jpg',
-        titleTxt: 'Premium Room',
-        perNight: 200,
-        dateTxt: 'Sleeps 3 people + 2 children',
-        roomData: RoomData(3, 2)),
-    HotelListData(
-        imagePath:
-        'assets/images/room_7.jpg assets/images/room_8.jpg assets/images/room_9.jpg',
-        titleTxt: 'Queen Room',
-        perNight: 240,
-        dateTxt: 'Sleeps 4 people + 4 children',
-        roomData: RoomData(4, 4)),
-    HotelListData(
-        imagePath:
-        'assets/images/room_10.jpg assets/images/room_11.jpg assets/images/room_12.jpg',
-        titleTxt: 'King Room',
-        perNight: 240,
-        dateTxt: 'Sleeps 4 people + 4 children',
-        roomData: RoomData(4, 4)),
-    HotelListData(
-        imagePath:
-        'assets/images/room_11.jpg assets/images/room_1.jpg assets/images/room_2.jpg',
-        titleTxt: 'Hollywood Twin\nRoom',
-        perNight: 260,
-        dateTxt: 'Sleeps 4 people + 4 children',
-        roomData: RoomData(4, 4)),
-  ];
+
 
   static List<HotelListData> hotelTypeList = [
     HotelListData(
@@ -253,47 +133,8 @@ class HotelListData {
       titleTxt: 'villa_data',
       isSelected: false,
     ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_5,
-      titleTxt: 'apartment',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_6,
-      titleTxt: 'guest_house',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_7,
-      titleTxt: 'motel',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_8,
-      titleTxt: 'accommodation',
-      isSelected: false,
-    ),
-    HotelListData(
-      imagePath: Localfiles.hotel_Type_9,
-      titleTxt: 'Bed_breakfast',
-      isSelected: false,
-    ),
   ];
   static List<HotelListData> lastsSearchesList = [
-    HotelListData(
-      imagePath: Localfiles.popular_4,
-      titleTxt: 'London',
-      roomData: RoomData(1, 3),
-      date: DateText(12, 22),
-      dateTxt: '12 - 22 Dec',
-    ),
-    HotelListData(
-      imagePath: Localfiles.popular_1,
-      titleTxt: 'Paris',
-      roomData: RoomData(1, 3),
-      date: DateText(12, 24),
-      dateTxt: '12 - 24 Sep',
-    ),
     HotelListData(
       imagePath: Localfiles.city_3,
       titleTxt: 'New York',
