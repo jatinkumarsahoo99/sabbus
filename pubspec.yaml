@@ -48,6 +48,8 @@ dependencies:
   flutter_launcher_icons:
   smooth_page_indicator:
   google_maps_flutter:
+#  pod_player:
+  http:
 
 
 flutter_launcher_icons:
@@ -65,6 +67,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  http:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

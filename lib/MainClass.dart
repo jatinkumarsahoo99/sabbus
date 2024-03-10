@@ -12,6 +12,7 @@ import 'package:sabbus/themes/theme_provider.dart';
 
 import 'Utils/enum.dart';
 import 'common/common.dart';
+import 'helperFile.dart';
 import 'language/appLocalizations.dart';
 import 'modules/setting/settings_screen.dart';
 import 'modules/splash/introductionScreen.dart';
@@ -49,7 +50,7 @@ class _MainClassState extends State<MainClass> {
           ],
           navigatorKey: navigatorKey,
           title: 'Sabbus',
-          home: SplashScreen(),
+          home: MyHomePage(),
           debugShowCheckedModeBanner: false,
           theme: _theme,
           routes: _buildRoutes(),
