@@ -50,6 +50,8 @@ dependencies:
   google_maps_flutter:
 #  pod_player:
   http:
+  flutterfire_cli: ^1.0.0
+  firebase_core:
 
 
 flutter_launcher_icons:
